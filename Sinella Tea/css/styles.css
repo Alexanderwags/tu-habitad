@@ -1,0 +1,340 @@
+@charset "UTF-8";
+/** Titulo del home **/
+.titulo {
+  color: #5e8647;
+  font-size: 3.375rem !important;
+  letter-spacing: -0.025rem;
+  font-family: 'Cherry Swash', cursive;
+  width: 100%;
+}
+
+/* font CHERRY */
+.cherry {
+  font-family: 'Cherry Swash', cursive;
+}
+
+/* font HIND LIGTH */
+.hind-ligth {
+  font-family: 'Hind', sans-serif;
+  font-weight: 300px;
+}
+
+/* font HIND MEDIUM */
+.hind-medium {
+  font-family: 'Hind', sans-serif;
+  font-weight: 500px;
+}
+
+/* font HIND BOLD */
+.hind-bold {
+  font-family: 'Hind', sans-serif;
+  font-weight: 700px;
+}
+
+/* font TITILLIUM */
+.titillium {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* COLOR PRINCIPAL VERDE */
+.color-ppal {
+  color: #5e8647;
+}
+
+/* COLOR ROJO */
+.color-red {
+  color: red;
+}
+
+/* COLOR VERDE MAS CLARO DE LA PALABRA TEA */
+.palabra-tea {
+  color: #a3bb4d !important;
+}
+
+/* PADDING LEFT A 0 */
+.pl-0 {
+  padding-left: 0 !important;
+}
+
+/* MODIFICACION DE LAS IMAGENES DEL SLIDER DEL BANNER */
+.swiper-style-banner .swiper-container {
+  height: 100vh !important;
+  padding-top: 30px;
+}
+
+/* MODIFICACION DEL PADDING EN RESOLUCION HASTA UN MAXIMO DE 991px */
+@media (max-width: 991px) {
+  .swiper-style-banner .swiper-container {
+    padding-top: 30px;
+  }
+}
+
+/* MODIFICACION DE LAS ALTURA DE LAS IMAGENES DE LOS SLIDER */
+.swiper-slide {
+  height: 65% !important;
+}
+
+/* SECTION 2 */
+/* PONER TRANSPARENTE EL BG DE LA SECCION 2 PARA QUE SE VEA EL BG QUE DESEAMOS POER Y NO SALGA OSCURO */
+.bg-layer-6 {
+  background: rgba(0, 0, 0, 0) !important;
+}
+
+/* TEXTO DEL SUBTITULO EN LA SECCCION 2 */
+.text-titulo {
+  color: #7e7e7e;
+  font-family: 'Hind', sans-serif;
+  font-weight: 300px;
+  font-size: 0.9375rem;
+}
+
+/* MODIFICACION DEL SEPARADOR DE OUR PRODUCTS */
+h2.white:before {
+  background-color: #dfcd50 !important;
+}
+
+/* CONFIGURACION DE LOS ITEMS EN LA SECCION 2 */
+#section2 .h6 {
+  /* CONFIGURACION DEL TAMAÑO DEL TITULO DEL ITEM  */
+  font-size: 1.875rem !important;
+}
+
+#section2 .design-item {
+  /* ESTABLECIENDO LA IMAGEN COMPLETA EN TODO EL CONTENEDOR Y QUE NO SE REPITA */
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* TODOS LAS ETIQUETAS P CON TAMAÑO A 1rem */
+p {
+  font-size: 1rem !important;
+}
+
+/* CONFIGURACION DE LOS BOTONES, COLOR, BG, EN EL ITEM 2 */
+.btn-1 {
+  background-color: #2d9896 !important;
+}
+
+.btn-1 span {
+  color: #fff !important;
+}
+
+.btn-1:hover {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+/* BG DE LA SECION 2 UN INDEX DE -1 PARA QUE NO ME TAPE LAS TAZAS DE TEA */
+.bg {
+  z-index: -1 !important;
+}
+
+/* NO MOSTRAR LAS TAZAS DE TEA CUANDO LA PANTALLA ES COMPRENDIDA HASTA 991px */
+@media screen and (max-width: 991px) {
+  .tea-1, .tea-2, .tea-3, .tea-4 {
+    display: none;
+  }
+}
+
+/* CONFIGURACION DE LA TAZA 1 */
+.tea-1 {
+  position: relative;
+  top: -230px;
+  width: 300px;
+}
+
+/* CONFIGURACION DE LA TAZA 2 */
+.tea-2 {
+  position: absolute;
+  top: -240px;
+  right: -80;
+  width: 300px;
+}
+
+/* PONER LOS ITEM CON ALTURA DE 634px */
+.design-item {
+  height: 634px !important;
+}
+
+/* LOS BOTONES DEL ITEM 2 ESTABLECERLOS UNO EN CADA LINEA */
+.d-grid {
+  display: grid !important;
+}
+
+/* CONFIGURACION DE LOS BOTONES EN EL ITEM 2 */
+/* BG, COLOR, FONT FAMILY, BORDER, FONT SIZE & MARGIN */
+.teaware .btn-wrap {
+  margin: 5px 38px;
+}
+
+.teaware .btn-wrap .btn-1 {
+  background: #FFF !important;
+  border: 1px solid #2d9896 !important;
+}
+
+.teaware .btn-wrap .btn-1 span {
+  color: #2d9896 !important;
+  font-size: 0.875rem;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.teaware .btn-wrap .btn-1:hover {
+  background: #2d9896 !important;
+  color: #fff !important;
+}
+
+.teaware .btn-wrap .btn-1:hover span {
+  color: #fff !important;
+}
+
+/* COMBIO DE COLOR DEL SEPADOR EN LAS ETIQUETAS DE CLASE H2 */
+.h2:before {
+  background-color: #dfcd50 !important;
+}
+
+/*SECCION 3*/
+/* CONFIGURACION DE LA SECCION 3 */
+#section3 .tittle {
+  /* CAMBIO DEL FONT SIZE EN EL TITULO */
+  font-size: 1.5rem !important;
+}
+
+#section3 .parrafo {
+  /* CAMBIO DEL FONT SIZE EN EL PARRATO */
+  font-size: .9375rem‬ !important;
+}
+
+/*seccion 4*/
+/* COLOR DEL TITUTLO A UN MARRON */
+.color-tea-values {
+  color: #222222;
+}
+
+/* CONFIGURACION DE LA TAZA 4 */
+.tea-3 {
+  position: relative;
+  top: -140px;
+  left: -92px;
+  width: 420px;
+}
+
+/* CAMBIO DEL FONT SIZE DEL PARRAFO EN LA SECCION 4 */
+.s4-p {
+  font-size: 0.8125rem;
+}
+
+/* COLOR DEL NUMERO GRANDE */
+.color-num {
+  color: #e9e9e9 !important;
+}
+
+/* seccion 5 */
+/* CONFIGURACION DE LA TAZA 4 */
+.tea-4 {
+  position: absolute;
+  top: -40px;
+  right: -28px;
+  width: 280px;
+}
+
+/* NO MOSTRAR CONTENT EN LOS BEFORE */
+.no-before:before {
+  content: none !important;
+}
+
+/* ETIQUETA DE NEW Y RED, PARTE SUPERIOR DERECGA DE A IMAGEN */
+.etiqueta-red, .etiqueta-new {
+  /* CONFIGURACION GENERA DE LAS ETIQUETAS */
+  font-family: 'Cherry Swash', cursive;
+  position: absolute !important;
+  float: right;
+  right: 35px;
+  color: #fff;
+  padding: 5px 13px !important;
+  margin-top: 10px !important;
+  border-radius: 5px !important;
+}
+
+.etiqueta-red:before, .etiqueta-new:before {
+  /* CONFIGURACION DEL BEFORE DE LAS ETIQUETA PARA QUE APAREZCA EL TRIANGULO */
+  content: "◀" !important;
+  background-color: #2d989600 !important;
+  top: 20% !important;
+  left: -10px !important;
+  height: auto !important;
+}
+
+.etiqueta-red {
+  /* ESTABLECIENDO EL BG RESPECTIVO DE LA ETIQUETA */
+  background-color: red;
+}
+
+.etiqueta-red:before {
+  /* ESTABLECIENDO EL COLOR DEL TRIANGULO DEL BEFORE RESPECTIVO DE LA ETIQUETA */
+  color: red !important;
+}
+
+.etiqueta-new {
+  /* ESTABLECIENDO EL BG RESPECTIVO DE LA ETIQUETA */
+  background-color: #2d9896;
+}
+
+.etiqueta-new:before {
+  /* ESTABLECIENDO EL COLOR DEL TRIANGULO DEL BEFORE RESPECTIVO DE LA ETIQUETA */
+  color: #2d9896 !important;
+}
+
+/* PONIENDO UN POCO DE ESPACIO ENTRE LA IMAGEN Y EL TITULO DE LA SECCION 5 */
+.s5-top {
+  top: 20px;
+}
+
+/* FOOTER */
+footer {
+  /* BG DEL FOOTER */
+  background-color: #313131 !important;
+}
+
+footer .fa-comments-o, footer .fa-instagram {
+  /* CONFIGURACION DE LOS ICONOS DE REDES SOCIALES */
+  font-size: 20px !important;
+  padding-top: 0px;
+  top: -5px !important;
+}
+
+footer .fw {
+  /* configuracion del follorw us con flotante a la izquierda */
+  float: left;
+  padding-right: 15px;
+}
+
+@media screen and (max-width: 991px) {
+  footer .fw {
+    /*  configuracion del follow us volviendo el flotante al center */
+    float: none;
+    padding-right: 0 !important;
+  }
+}
+
+footer .follow {
+  /* HACIENDO LAS ETIQUETAS a TRANSPARENTE DENTRO DEL FOLLOW */
+}
+
+footer .follow a {
+  background-color: #00000000 !important;
+}
+
+footer .pt-3 {
+  /* PADDING TOP 3px */
+  padding-top: 3px;
+}
+
+footer .cards {
+  /* CONFIGURACION DE LAS TARJETA CON FLOTANTE A LA DERECHA Y SEPARACION DE PADDING */
+  float: right;
+  text-align: right;
+}
+
+footer .cards img {
+  padding: 0 5px;
+}

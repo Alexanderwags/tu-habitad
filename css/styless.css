@@ -1,0 +1,261 @@
+@import url(normalize.css);
+body {
+  font-family: 'Quicksand', sans-serif !important;
+}
+
+.verde {
+  background-color: #19766c;
+}
+
+.letra-verde {
+  color: #19766c;
+}
+
+.redes-sociales a .fa-facebook-f {
+  color: #19766c;
+  padding: 4%;
+  border: .1rem solid;
+  border-radius: 50%;
+}
+
+.redes-sociales a .fa-facebook-f:hover {
+  color: white;
+  background-color: #19766c;
+  padding: 4%;
+  border: .1rem solid;
+  border-radius: 50%;
+}
+
+.redes-sociales a .fa-instagram {
+  color: #19766c;
+  padding: 4%;
+  border: .1rem solid;
+  border-radius: 50%;
+}
+
+.redes-sociales a .fa-instagram:hover {
+  color: white;
+  background-color: #19766c;
+  padding: 4%;
+  border: .1rem solid;
+  border-radius: 50%;
+}
+
+.redes-sociales a .fa-youtube {
+  color: #19766c;
+  padding: 4%;
+  border: .1rem solid;
+  border-radius: 50%;
+}
+
+.redes-sociales a .fa-youtube:hover {
+  color: white;
+  background-color: #19766c;
+  padding: 4%;
+  border: .1rem solid;
+  border: 0.3;
+  border-radius: 50%;
+}
+
+.head-left-letras {
+  position: absolute;
+  background-color: green;
+  width: 300px;
+  top: 22%;
+  left: 25%;
+}
+
+.servicios {
+  position: relative;
+  margin-top: -3%;
+}
+
+.text-1 {
+  letter-spacing: 2px;
+  color: #19766C;
+  font-weight: 700;
+  font-family: 'quicksand', sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 2rem;
+}
+
+.text-2 {
+  letter-spacing: 2px;
+  color: #19766C;
+  font-weight: 500;
+  font-family: 'quicksand', sans-serif;
+  font-size: 2rem;
+}
+
+.elige-vivir {
+  font-family: 'akzidenzgroteskbq', sans-serif;
+  font-size: 4.50875em;
+  line-height: 1.05em;
+}
+
+.en-el-lugar {
+  font: bold;
+  font-size: 1.375rem;
+  line-height: 23.72px;
+  letter-spacing: 1px;
+  margin-bottom: 68px;
+}
+
+.contacto {
+  background-color: white;
+  text-decoration: none;
+  padding-left: 9%;
+  padding-right: 9%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  border-radius: 50px;
+  font-size: 1.375rem;
+  -webkit-transition: all 0.5s !important;
+  -moz-transition: all 0.5s !important;
+  -o-transition: all 0.5s !important;
+  transition: all 0.5s !important;
+}
+
+.contacto:hover {
+  text-decoration: none;
+  background-color: green;
+}
+
+.vl {
+  display: inline-block;
+  border-left: 1px solid green;
+  height: 80px;
+}
+
+.verdee {
+  height: 500px;
+  left: 0;
+  z-index: -1;
+  background-color: #C7D684;
+}
+
+.verdee-1 {
+  height: 500px;
+  z-index: -1;
+  left: 1.3%;
+  background-color: #C7D684;
+}
+
+@media (min-width: 200px) and (max-width: 600px) {
+  .img-abuelas {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+  }
+}
+
+@media (min-width: 601px) {
+  .img-abuelas {
+    position: absolute;
+    top: -27%;
+    left: .88%;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 600px) {
+  .img-abuelas-1 {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+  }
+}
+
+@media (min-width: 601px) {
+  .img-abuelas-1 {
+    position: absolute;
+    top: -27%;
+    right: 5.22%;
+  }
+}
+
+.caja-verde {
+  border: 3px solid #80B47C;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 14%;
+}
+
+.div-conocer-mas {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 45.5%;
+}
+
+.conocer-mas {
+  background-color: #81b47c;
+  padding: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  color: white;
+  border-radius: 50px;
+  font-size: 1.375rem;
+  -webkit-transition: all 0.5s !important;
+  -moz-transition: all 0.5s !important;
+  -o-transition: all 0.5s !important;
+  transition: all 0.5s !important;
+}
+
+.conocer-mas:hover {
+  background-color: #19766c;
+  color: white;
+  text-decoration: none;
+}
+
+.info-empresa {
+  background-color: #efefef;
+}
+
+.imagen-not {
+  display: block;
+  height: 330px;
+  overflow: hidden;
+}
+
+.img-noticia {
+  -webkit-filter: brightness(65%);
+  filter: brightness(65%);
+  margin-top: -10%;
+  width: 100% !important;
+}
+
+@media (min-width: 200px) and (max-width: 699px) {
+  .filial {
+    position: relative;
+  }
+}
+
+@media (min-width: 700px) {
+  .filial {
+    position: absolute;
+  }
+}
+
+@media (min-width: 700px) {
+  .linea-vertical {
+    border-right: 1px solid #d3d3d3;
+    height: 80px;
+    width: 1px;
+    display: inherit !important;
+    position: absolute;
+    right: 100%;
+  }
+}
+
+.contacto-empresa {
+  background-image: url(../img/contacto.jpg);
+  background-size: 100% 100%;
+  position: relative;
+  height: 667px;
+  background-repeat: no-repeat;
+}
+
+.footer-final {
+  background-color: #19766c;
+}

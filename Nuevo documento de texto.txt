@@ -1,0 +1,27 @@
+#info1{
+	height: 100px;
+	background-color: cyan;
+}
+#portada .centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+}
+.logo{
+	position: absolute;
+	top: 10%;
+	left: 40%;
+    width: 200px;
+}
+.recurso1{
+	position: absolute;
+	top: 35%;
+	left: 55%;
+	width: 150px;
+}
+p{
+    color: white;
+}
