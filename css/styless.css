@@ -51,7 +51,15 @@
   }
 }
 
-@media (min-width: 701px) {
+@media (min-width: 701px) and (max-width: 1100px) {
+  .big-tittle {
+    font-size: 4.0875rem;
+    line-height: 78.37px;
+    letter-spacing: 5px;
+  }
+}
+
+@media (min-width: 1101px) {
   .big-tittle {
     font-size: 5.0875rem;
     line-height: 88.37px;
@@ -171,7 +179,17 @@
   }
 }
 
-@media (min-width: 701px) {
+@media (min-width: 701px) and (max-width: 1100px) {
+  .head-left-letras .letricas {
+    position: absolute;
+    left: 15%;
+    top: 3%;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1101px) {
   .head-left-letras {
     width: 100%;
     margin: 0 auto;
