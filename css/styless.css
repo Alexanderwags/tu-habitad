@@ -1,68 +1,186 @@
 @import url(normalize.css);
-body {
-  font-family: 'Quicksand', sans-serif !important;
-}
-
 .verde {
   background-color: #19766c;
 }
 
+.nav-link {
+  color: #19766C !important;
+}
+
+.nav-link:hover {
+  color: #86bc70 !important;
+  padding-bottom: 0%;
+  border-bottom: dotted;
+  webkit-transition: all 0.5s !important;
+  -moz-transition: all 0.5s !important;
+  -o-transition: all 0.5s !important;
+  -webkit-transition: all 0.5s !important;
+  transition: all 0.5s !important;
+}
+
+@media (min-width: 200px) and (max-width: 600px) {
+  .dropdown-menu {
+    width: 100%;
+  }
+}
+
+@media (min-width: 601px) {
+  .dropdown-menu {
+    width: 521px;
+    border-top-style: solid;
+    border-color: #19766c;
+    border: 5%;
+    top: 123% !important;
+    left: -270px !important;
+  }
+}
+
 .letra-verde {
-  color: #19766c;
+  color: #19766C !important;
+}
+
+.akzidenzgroteskbq {
+  font-family: 'akzidenzgroteskbq', sans-serif !important;
+}
+
+@media (min-width: 200px) and (max-width: 700px) {
+  .big-tittle {
+    font-size: 4.0875rem;
+    line-height: 78.37px;
+    letter-spacing: 5px;
+  }
+}
+
+@media (min-width: 701px) {
+  .big-tittle {
+    font-size: 5.0875rem;
+    line-height: 88.37px;
+    letter-spacing: 5px;
+  }
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.quicksand {
+  font-family: 'Quicksand', sans-serif;
 }
 
 .redes-sociales a .fa-facebook-f {
   color: #19766c;
-  padding: 4%;
-  border: .1rem solid;
-  border-radius: 50%;
+  padding: 3%;
+  padding-left: 6%;
+  padding-right: 6%;
+  border: .09rem  solid;
+  border-radius: 100%;
+  webkit-transition: all 0.5s !important;
+  -moz-transition: all 0.5s !important;
+  -o-transition: all 0.5s !important;
+  -webkit-transition: all 0.5s !important;
+  transition: all 0.5s !important;
 }
 
 .redes-sociales a .fa-facebook-f:hover {
   color: white;
-  background-color: #19766c;
-  padding: 4%;
-  border: .1rem solid;
+  background-color: #c7d685;
+  padding: 2%;
+  padding-left: 6%;
+  padding-right: 6%;
+  border: .09rem  solid;
   border-radius: 50%;
 }
 
 .redes-sociales a .fa-instagram {
   color: #19766c;
-  padding: 4%;
-  border: .1rem solid;
+  padding: 3%;
+  border: .09rem solid;
   border-radius: 50%;
+  webkit-transition: all 0.5s !important;
+  -moz-transition: all 0.5s !important;
+  -o-transition: all 0.5s !important;
+  -webkit-transition: all 0.5s !important;
+  transition: all 0.5s !important;
 }
 
 .redes-sociales a .fa-instagram:hover {
   color: white;
-  background-color: #19766c;
-  padding: 4%;
-  border: .1rem solid;
+  background-color: #c7d685;
+  padding: 3%;
+  border: .09rem solid;
   border-radius: 50%;
 }
 
 .redes-sociales a .fa-youtube {
   color: #19766c;
-  padding: 4%;
-  border: .1rem solid;
+  padding: 3%;
+  border: .09rem  solid;
   border-radius: 50%;
+  webkit-transition: all 0.5s !important;
+  -moz-transition: all 0.5s !important;
+  -o-transition: all 0.5s !important;
+  -webkit-transition: all 0.5s !important;
+  transition: all 0.5s !important;
 }
 
 .redes-sociales a .fa-youtube:hover {
   color: white;
-  background-color: #19766c;
-  padding: 4%;
-  border: .1rem solid;
-  border: 0.3;
+  background-color: #c7d685;
+  padding: 3%;
+  border: .09rem  solid;
   border-radius: 50%;
 }
 
-.head-left-letras {
-  position: absolute;
-  background-color: green;
-  width: 300px;
-  top: 22%;
-  left: 25%;
+@media (min-width: 200px) and (max-width: 700px) {
+  #menu {
+    height: 64px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+  #menu a {
+    margin-left: 3%;
+    padding: 2%;
+  }
+}
+
+@media (min-width: 701px) {
+  #menu {
+    height: 64px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 700px) {
+  #head-1 {
+    height: 345px !important;
+  }
+}
+
+@media (min-width: 701px) {
+  #head-1 {
+    height: 100%;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 700px) {
+  .head-left-letras .letricas {
+    position: absolute;
+    top: 12%;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 701px) {
+  .head-left-letras {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .head-left-letras .letricas {
+    position: absolute;
+    top: 22%;
+    left: 25%;
+  }
 }
 
 .servicios {
@@ -90,12 +208,11 @@ body {
 
 .elige-vivir {
   font-family: 'akzidenzgroteskbq', sans-serif;
-  font-size: 4.50875em;
+  font-size: 5.50875em;
   line-height: 1.05em;
 }
 
 .en-el-lugar {
-  font: bold;
   font-size: 1.375rem;
   line-height: 23.72px;
   letter-spacing: 1px;
@@ -104,11 +221,12 @@ body {
 
 .contacto {
   background-color: white;
+  color: #81b47c;
   text-decoration: none;
-  padding-left: 9%;
-  padding-right: 9%;
-  padding-top: 4%;
-  padding-bottom: 4%;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   border-radius: 50px;
   font-size: 1.375rem;
   -webkit-transition: all 0.5s !important;
@@ -119,7 +237,8 @@ body {
 
 .contacto:hover {
   text-decoration: none;
-  background-color: green;
+  background-color: #19766c;
+  color: white;
 }
 
 .vl {

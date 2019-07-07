@@ -1,14 +1,69 @@
 @import url(normalize.css);
 body{
-		font-family: 'Quicksand', sans-serif !important;
+		//font-family: 'Quicksand', sans-serif !important;
 }
 .verde{
 	background-color: rgb(25,118,108);
 }
-.letra-verde{
-	color: rgb(25,118,108);
+.nav-link{
+	   color: #19766C !important;
 }
+.nav-link:hover{
+    color: rgb(134,188,112) !important;
+    
+    padding-bottom:0%;
+    border-bottom: dotted;
+    webkit-transition: all 0.5s !important;
+	-moz-transition: all 0.5s !important;
+	-o-transition: all 0.5s !important;
+	transition: all 0.5s !important;
+}
+.dropdown-menu{
+  
+        @media (min-width: 200px) and (max-width: 600px) {
+		  width: 100%;
 
+		}
+		 @media (min-width: 601px)  {
+		   width: 521px;
+		   //position: absolute !important;
+		   border-top-style: solid;
+		   border-color: rgb(25,118,108);
+		   border: 5%;
+		   top: 123% !important;
+		   left: -270px !important;
+		}
+}
+.letra-verde{
+	   color: #19766C !important;
+}
+//seccion de header 
+.akzidenzgroteskbq {
+     font-family: 'akzidenzgroteskbq', sans-serif !important;
+}
+.big-tittle {
+  
+         @media (min-width: 200px) and (max-width: 700px) {
+		      font-size: 4.0875rem;
+			  line-height: 78.37px;
+			  // margin-left: -14px;
+			  letter-spacing: 5px;
+
+		}
+		 @media (min-width: 701px)  {
+		 	  font-size: 5.0875rem;
+			  line-height: 88.37px;
+			  // margin-left: -14px;
+			  letter-spacing: 5px;
+		 }
+}
+//fin de seccion de header
+.font-bold{
+    font-weight: 700;
+}
+.quicksand{
+    font-family: 'Quicksand', sans-serif;
+}
 .redes-sociales{
 
 	a{
@@ -17,60 +72,125 @@ body{
 		 .fa-facebook-f{
 
                 color: rgb(25,118,108);//#3b5998;
-                padding: 4%;
-                border:.1rem solid;
-                border-radius: 50%;
+                padding: 3%;
+                padding-left: 6%;
+                padding-right: 6%;
+
+                border: .09rem  solid;
+                border-radius: 100%;
+                webkit-transition: all 0.5s !important;
+				-moz-transition: all 0.5s !important;
+				-o-transition: all 0.5s !important;
+				transition: all 0.5s !important;
 	      }
 		 .fa-facebook-f:hover{
 	            color: white;
-	            background-color: rgb(25,118,108);;
-	            padding: 4%;
-	            border:.1rem solid;
+	            background-color: rgb(199,214,133);
+	            padding: 2%;
+                padding-left: 6%;
+                padding-right: 6%;
+	            border: .09rem  solid;
 	            border-radius: 50%;
 	               
 	      }
 	      .fa-instagram{
 
                 color: rgb(25,118,108);//#3b5998;
-                padding: 4%;
-                border: .1rem solid;
+                padding: 3%;
+                border: .09rem solid;
                 border-radius: 50%;
+                webkit-transition: all 0.5s !important;
+				-moz-transition: all 0.5s !important;
+				-o-transition: all 0.5s !important;
+				transition: all 0.5s !important;
 	      }
 		 .fa-instagram:hover{
 	            color: white;
-	            background-color: rgb(25,118,108);;
-	            padding: 4%;
-	            border:.1rem solid;
+	            background-color: rgb(199,214,133);
+	            padding: 3%;
+	            border:.09rem solid;
 	            border-radius: 50%;
 	               
 	      }
 	      .fa-youtube{
 
                 color: rgb(25,118,108);//#3b5998;
-                padding: 4%;
-                border:.1rem solid;
+                padding: 3%;
+                border: .09rem  solid;
                 border-radius: 50%;
+                webkit-transition: all 0.5s !important;
+				-moz-transition: all 0.5s !important;
+				-o-transition: all 0.5s !important;
+				transition: all 0.5s !important;
 	      }
 		 .fa-youtube:hover{
 	            color: white;
-	            background-color: rgb(25,118,108);;
-	            padding: 4%;
-	            border:.1rem solid;
-	            border:0.3;
+	            background-color: rgb(199,214,133);
+	            padding: 3%;
+	            border: .09rem  solid;
+	           
 	            border-radius: 50%;
 	               
 	      }
 	}
 
 }
+#menu{
+       @media (min-width: 200px) and (max-width: 700px) {
+		  height: 64px;
+		  margin:0;padding:0;
+		  background-color: white;
+		  a{
+		  	margin-left: 3%;
+		  	padding: 2%;
+		  }
+		}
+		 @media (min-width: 701px)  {
+		   height: 64px; 
+		}
+}
+ #head-1{
+		
+		@media (min-width: 200px) and (max-width: 700px) {
+		    height: 345px !important;
+
+		}
+		 @media (min-width: 701px)  {
+		 	height: 100%;
+		 }
+}
 .head-left-letras{
-	position: absolute;
-	background-color: green;
-	width: 300px;
-	top: 22%;
-	left: 25%;
+	
   
-	//background-color: green;
+	    @media (min-width: 200px) and (max-width: 700px) {
+		     ///width: 100%;
+			 
+			
+			 //left: 25%;
+			
+			.letricas{
+				position: absolute;
+			
+				top: 12%;
+				width: 100%;
+				text-align: center;
+				
+				//text-align: center;
+                //left: 25%;
+			}
+		}
+		 @media (min-width: 701px)  {
+		   width: 100%;
+			margin:0 auto;
+			//left: 25%;
+			.letricas{
+				 position: absolute;
+				
+				
+				top: 22%;
+               left: 25%;
+			}
+		}
 }		
     .servicios{
     	position: relative;
@@ -95,13 +215,13 @@ body{
   .elige-vivir{
         font-family: 'akzidenzgroteskbq', sans-serif;
       // width: 207px;
-    	font-size: 4.50875em;
+    	font-size: 5.50875em;
 		line-height: 1.05em;
 		 
 		//letter-spacing: 5px;
     }
     .en-el-lugar{
-    	font:bold;
+    	
 		font-size: 1.375rem;
 		line-height: 23.72px;
 		letter-spacing: 1px;
@@ -109,13 +229,13 @@ body{
     }
     .contacto{
     	background-color: white;
+    	color: rgb(129,180,124);
     	text-decoration: none;
-    	padding-left: 9%;
-    	padding-right: 9%;
-        padding-top: 4%;
-    	padding-bottom: 4%;
+    	padding-left: 7%;
+    	padding-right: 7%;
+        padding-top: 2%;
+    	padding-bottom: 2%;
 		border-radius: 50px;
-		
 		//letter-spacing: 1px;
 		font-size: 1.375rem;
 		-webkit-transition: all 0.5s !important;
@@ -125,7 +245,8 @@ body{
     }
     .contacto:hover{
        	text-decoration: none;
-       	background-color: green;
+       	background-color: rgb(25,118,108);
+       	color: white;
     }
     .vl {
     	display: inline-block;
