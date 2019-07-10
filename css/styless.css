@@ -147,9 +147,9 @@
 
 .redes-sociales-1 a .fa-facebook-f {
   color: #19766c;
-  padding: 3%;
-  padding-left: 4%;
-  padding-right: 4%;
+  padding: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
   border: .09rem  solid;
   border-radius: 100%;
   webkit-transition: all 0.5s !important;
@@ -160,18 +160,18 @@
 }
 
 .redes-sociales-1 a .fa-facebook-f:hover {
-  color: #c7d685;
-  background-color: #c7d685;
-  padding: 3%;
-  padding-left: 4%;
-  padding-right: 4%;
+  color: white;
+  background-color: #19766c !important;
+  padding: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
   border: .09rem  solid;
   border-radius: 50%;
 }
 
 .redes-sociales-1 a .fa-instagram {
   color: #19766c;
-  padding: 3%;
+  padding: 2%;
   border: .09rem solid;
   border-radius: 50%;
   webkit-transition: all 0.5s !important;
@@ -182,16 +182,16 @@
 }
 
 .redes-sociales-1 a .fa-instagram:hover {
-  color: #c7d685;
-  background-color: #c7d685;
-  padding: 3%;
+  color: white;
+  background-color: #19766c !important;
+  padding: 2%;
   border: .09rem solid;
   border-radius: 50%;
 }
 
 .redes-sociales-1 a .fa-youtube {
   color: #19766c;
-  padding: 3%;
+  padding: 2%;
   border: .09rem  solid;
   border-radius: 50%;
   webkit-transition: all 0.5s !important;
@@ -202,10 +202,11 @@
 }
 
 .redes-sociales-1 a .fa-youtube:hover {
-  color: #c7d685;
-  background-color: #c7d685;
-  padding: 3%;
+  color: white;
+  background-color: #19766c !important;
+  padding: 2%;
   border: .09rem  solid;
+  border-color: white;
   border-radius: 50%;
 }
 
@@ -689,6 +690,9 @@
     left: 5.3125rem;
     top: 10rem;
   }
+  .texto-noticia h1 {
+    font-size: 2rem;
+  }
 }
 
 .boton-verde {
@@ -794,10 +798,52 @@ textarea:focus:-ms-input-placeholder {
   color: white;
 }
 
+input[required] + label {
+  color: gray;
+  position: absolute;
+  top: 5px;
+  /* the negative of the input width */
+  left: 30px;
+}
+
+@media (min-width: 200px) and (max-width: 499px) {
+  input[required] + label {
+    color: gray;
+    position: absolute;
+    top: 9px;
+    /* the negative of the input width */
+    left: 30px;
+    font-size: 0.7rem;
+  }
+}
+
+input[required] + label:after {
+  content: '(Obligatorio*)';
+  font-size: 0.8rem;
+  color: #d9e2a9;
+}
+
+/* show the placeholder when input has no content (no content = invalid) */
+input[required]:invalid + label {
+  display: inline-block;
+}
+
+/* hide the placeholder when input has some text typed in */
+input[required]:valid + label {
+  display: none;
+}
+
+input[required]:valid + label:hover {
+  color: white;
+  position: absolute;
+  top: 5px;
+  /* the negative of the input width */
+  left: 30px;
+}
+
 #direccion {
-  border: solid;
+  border: 1.2px solid;
   border-color: white;
-  border-style: .3px;
 }
 
 .footer-finalll {
@@ -817,3 +863,67 @@ textarea:focus:-ms-input-placeholder {
   display: inline-block !important;
   width: 57px;
 }
+
+.text-footer {
+  letter-spacing: 2px;
+  font-size: 0.93rem;
+  line-height: 1.6;
+}
+
+.opacity-footer {
+  opacity: .9;
+}
+
+.limpiar {
+  clear: both !important;
+}
+
+.linea-footer {
+  width: 252px !important;
+  text-align: center !important;
+}
+
+@media (min-width: 700px) {
+  .linea-footer {
+    width: 252px !important;
+    float: left !important;
+  }
+}
+
+.btn-formulario {
+  color: black !important;
+  opacity: .6 !important;
+  text-decoration: none;
+}
+
+.btn-formulario:hover {
+  color: #19766c !important;
+  text-decoration: none;
+}
+
+.posicion-correcta {
+  overflow: hidden !important;
+}
+
+.txt-aliados-big {
+  font-size: 5.5rem;
+  color: #C7D684;
+  opacity: 0.1;
+  letter-spacing: 2px;
+}
+
+.posicion-ab {
+  position: absolute !important;
+  margin-top: 4.5% !important;
+  left: 9.2%;
+  bottom: 25%;
+}
+
+.ptn-susp {
+  font-size: 2rem;
+  line-height: 1px;
+  margin-left: -8px;
+  letter-spacing: 2px;
+}
+
+/*# sourceMappingURL=styless.css.map */
